@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  cursor: text;
 }
 .game-cell {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -15,13 +16,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: context-menu;
+  cursor: move;
 }
 .game-cell.is-x {
   color: blue;
+  cursor: text;
 }
 .game-cell.is-x {
   color: red;
+  cursor: text;
 }
 .game-winner {
   padding: 25px;

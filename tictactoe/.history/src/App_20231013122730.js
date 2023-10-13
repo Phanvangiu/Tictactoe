@@ -1,11 +1,10 @@
 import "./App.css";
 // import Game from "./Cgame/Game";
-// import CGame from "./CopyGame/CGame";
-import Copygame from "./Copy1Game/Copygame";
+import CGame from "./CopyGame/CGame";
 function App() {
   return (
     <div className="App">
-      <Copygame></Copygame>
+      <CGame></CGame>
     </div>
   );
 }

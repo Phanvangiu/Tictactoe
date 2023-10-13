@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: context-menu;
+  cursor: default;
 }
 .game-cell.is-x {
   color: blue;
